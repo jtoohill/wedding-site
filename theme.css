@@ -1,0 +1,140 @@
+/* common styles */
+
+body {
+  margin: 0;
+  color: #222;
+  font-family: 'EB Garamond', 'Garamond', serif;
+  font-size: 16pt;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  color: #222;
+}
+
+a:hover, a:active {
+  color: #777;
+}
+
+.middle {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* header */
+
+header {
+  text-align: center;
+  padding: 30px 0 0 0;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+/* navigation */
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  margin: 0 25px;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#rsvp {
+  outline: 1px solid #222;
+}
+
+/* landing page */
+
+#fullpage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url("bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#light-bg {
+  background: rgba(255, 255, 255, 0.33);
+  box-shadow: 0 15px 15px rgba(255, 255, 255, 0.33);
+}
+
+/* content */
+
+#content {
+  padding: 10px 0 0 0;
+  border-top: 5px solid #222;
+}
+
+#content h2 {
+  text-align: center;
+}
+
+#content img, #content iframe {
+  border: 1px solid #ccc;
+  box-shadow: rgba(192,192,192,0.5) 4px 4px 4px;
+}
+
+#imgbox {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* story */
+
+#imgbox p {
+  width: 65%;
+}
+
+#content img {
+  width: 32%;
+}
+
+/* event page */
+
+dl {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 55%;
+  margin-right: 20px;
+}
+
+dt {
+  flex: 0 0 15%;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+  flex: 0 0 83%;
+}
+
+#content iframe {
+  width: 45%;
+}
