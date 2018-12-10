@@ -22,7 +22,7 @@ a:hover, a:active {
 }
 
 .middle {
-  max-width: 1080px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -37,6 +37,10 @@ header {
   padding: 30px 0 0 0;
   letter-spacing: 4px;
   text-transform: uppercase;
+}
+
+header a {
+  text-decoration: none;
 }
 
 /* navigation */
@@ -107,12 +111,12 @@ nav a {
 
 /* story */
 
-#imgbox p {
-  width: 65%;
+#content img {
+  width: 33%;
 }
 
-#content img {
-  width: 32%;
+#content .left {
+  margin-right: 25px;
 }
 
 /* event page */
