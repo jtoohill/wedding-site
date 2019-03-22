@@ -1,3 +1,3 @@
 ## Jon and Shannon's wedding site
 
-Content coming soon.
+Live at jonandshannon.com.
