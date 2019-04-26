@@ -121,11 +121,14 @@ nav a {
 
 /* event page */
 
+#imgbox div {
+  width: 55%;
+}
+
 dl {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  width: 55%;
   margin-right: 20px;
 }
 
@@ -139,6 +142,6 @@ dd {
   flex: 0 0 83%;
 }
 
-#content iframe {
+#imgbox iframe {
   width: 45%;
 }
